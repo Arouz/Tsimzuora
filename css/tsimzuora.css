@@ -1,0 +1,265 @@
+/* Body */
+body {
+    background-color: #252830;
+    color: #1ca8dd;
+}
+
+/* modif boostrap */
+
+.container.main {
+    margin-top: 10px;
+}
+
+a {
+    color: #1ca8dd;
+}
+
+.col-8.tableau {
+    margin-top: 10px;
+}
+
+.dropdown-menu {
+    background: #252830;
+}
+
+/* Form-inline */ 
+.form-inline {
+    font-size: 0.5rem;
+}
+
+/* Modification de la navbar */
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #1ca8dd;
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover {
+    border-color: #1ca8dd;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 254, 254, 0.87);
+}
+
+.navbar-brand {
+    padding-top: 0rem;
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bg-dark {
+    background-color: #252830 !important;
+}
+
+div.show {
+    margin-top: 0.5rem;
+}
+
+.dropdown-menu {
+    padding: .0rem 0;
+}
+/**/
+
+/** Options liés à la grille  **/
+
+.btn.btn-outline-info.btn-sm {
+    margin: 1px;
+    border-color: #1ca8dd;
+}
+
+.btn.btn-outline-info.btn-sm.sudoerror {
+    color: #cb2e3c;
+    border-color: #cb2e3b80;
+}
+
+.btn.btn-outline-info.btn-sm.sudoerror:hover {
+    color : #ffffff;
+    background-color: #cb2e3c;
+}
+
+
+.row.tableau.db {
+    width: max-content;
+}
+
+.table.table-dark.db {
+    background-color: #cb2e3b00;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.table.table-dark.db th {
+    color: #1ca8dd;
+}
+
+.table.table-dark.db td {
+    text-align: center;
+}
+
+.btn-group-sm > .btn, .btn-sm.login,
+.btn-group-sm > .btn, .btn-sm.register {
+    width: 100%;
+    height: 38px;
+}
+
+.container.log {
+    padding: 0.5rem;
+    text-align: center;
+    padding-top: 40px;
+    max-width: 450px;
+    min-width: 330px;
+}
+
+.form-group.log {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+/* Modifie l'affichage du sudoku au breakpoint 768 */
+@media screen and (max-width: 767px) {
+    
+    .form-control.form-control-sm.selectd {
+        width: 330px;
+    }
+    
+    .btn-group {
+        width: 330px;
+    }
+
+    .row.tableau.db {
+        width: 330px;
+    }
+
+    /* Ajuste la div de log en fonction de la taille de l'écran*/
+    .container.log {
+        width: 330px;
+    }
+}
+/**/
+
+
+/* Annule le breakpoint à 1000px pour la navbar */
+@media (min-width: 768px) and (max-width: 1000px) {
+
+    .navbar-collapse {
+        display: flex !important; 
+        flex-basis: auto;
+    }
+
+    .container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+        float: none;
+    }
+
+}
+/**/
+
+
+/* DVF */
+.Formulaire {
+    margin-top: 6rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.btnc {
+    width: 100%;
+}
+
+.CV {
+    background: #D3D1CE;
+    color: #252830;
+    border-radius: 6px;
+    margin-top: 40px;
+}
+.CV h1{
+    color: #252830;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.CV h3{
+    color: #252830;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.CV h4{
+    color: #252830;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.CV p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.CV p.mt {
+    margin-bottom: 5px;
+}
+
+.CV p.st {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 5px;
+}
+
+.CV p.stm {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.fbutton {
+    background: #252830;
+    color: #D3D1CE;
+    border-radius: 4px;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.btncontact {
+    text-align: center;
+    padding: 10px;
+}
+
+.fbutton:hover {
+    background: #252830;
+    color: #D3D1CE;
+    text-decoration: none;
+}
+
+
+.embedperso {
+    display: inline-block;
+    width: 340px;
+    height: 200px;
+    margin: 3px;
+}
+
+.embedflix {
+    margin-top: 40px;
+}

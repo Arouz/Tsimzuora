@@ -1,0 +1,206 @@
+/* Tableau Sudoku  */
+
+.table.al {
+    margin-top: 0.45rem;
+    margin-bottom: 0.45rem;
+}
+/**/
+
+/* Cases du sudoku  */
+.DivEdit {
+    color: #1ca8dd;
+    width: 50%;
+    height: 50%;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.DivNEdit {
+    color: #000000;
+    width: 50%;
+    height: 50%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+.table.table-dark.al th,
+.table.table-dark.al td,
+.table.table-dark.al thead th,
+.table.table-dark.al tbody + tbody {
+    width: 66px;
+    height: 66px;
+    border-top-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.grille {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-width:1px; 
+    border-top:1px; 
+    border-style:solid; 
+    border-color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+}
+
+.table.table-dark.al td.grille.droite {
+    border-right: 2px;
+    border-right-style: solid;
+    border-right-color: #1ca8dd;
+}
+
+.table.table-dark.al td.grille.bas {
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #1ca8dd;
+}
+
+.table.table-dark.al td.grille.droite.bas {
+    border-right-style: solid;
+    border-right-color: #1ca8dd;
+    border-bottom-style: solid;
+    border-bottom-color: #1ca8dd;
+}
+
+
+.table.table-dark.al {
+    width: 600px;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.azerty {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.btn-group {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.selectd {
+    margin-bottom: 10px;
+}
+
+/* Modifie les couleurs de la alertdiv */
+.alert.SudokuError {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #cb2e3c;
+    background-color: #f8d7da00;
+    border-color: #cb2e3c;
+}
+/**/
+
+.alert.SudokuLog {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #cb2e3c;
+    background-color: #f8d7da00;
+    border-color: #cb2e3c;
+}
+
+.alert.SudokuComplete {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #1ca8dd;
+    background-color: #f8d7da00;
+    border-color: #1ca8dd;
+}
+
+/* Modifie l'affichage du sudoku au breakpoint 768 */
+@media screen and (max-width: 767px) {
+
+    .table.table-dark.al th,
+    .table.table-dark.al td,
+    .table.table-dark.al thead th,
+    .table.table-dark.al tbody + tbody {
+        padding: 0rem;
+        vertical-align: top;
+        border-top: none;
+        width: 36px;
+        height: 36px;
+        align-content: center;
+    }
+
+    /* Cases du sudoku  */
+    .DivEdit {
+        color: #1ca8dd;
+        width: 50%;
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 24%;
+        font-size: 14px;
+    }
+
+    .DivNEdit {
+        color: #000000;
+        width: 50%;
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 28%;
+        font-size: 12px;
+    }
+
+    .table.table-dark.al {
+        width: 330px;
+        height: 320px;
+    }
+
+    .azerty {
+        width: 330px;
+        margin: 0 auto;
+    }
+
+    .alert.SudokuError {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: #cb2e3c;
+        background-color: #f8d7da00;
+        border-color: #cb2e3c;
+    }
+    /**/
+    
+    .alert.SudokuComplete {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: #1ca8dd;
+        background-color: #f8d7da00;
+        border-color: #1ca8dd;
+    }
+
+    .alert.SudokuLog {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: #cb2e3c;
+        background-color: #f8d7da00;
+        border-color: #cb2e3c;
+    }
+
+}
+/**/
+
+
+

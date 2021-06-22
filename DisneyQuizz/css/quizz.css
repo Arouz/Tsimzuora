@@ -1,0 +1,108 @@
+body{
+    background-color: #252830;
+    color: #1ca8dd;
+}
+
+a:hover {
+    color: #1ca8dd;
+    text-decoration: underline;
+}
+
+.container.log {
+    max-width: 870px;
+}
+
+.btn.btn-outline-info.addquestion {
+    width: 100%;
+}
+
+.Ttitre {
+    color: #D3D1CE;
+    text-align: left;
+    font-weight: bold;
+}
+
+.Reponse {
+    color: #00d058;
+}
+
+.table.table-dark.al {
+    font-size: 14px;
+    color: #1ca8dd;
+    background-color: #2a2b2b00;
+    border-top: 1px solid rgba(32, 168, 221, 0.13);
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    border-top: 1px solid rgba(32, 168, 221, 0.13);
+}
+
+.table-dark th,
+.table-dark td,
+.table-dark thead th,
+.table-dark tbody + tbody {
+    border: none;
+    border-color: #95999c;
+}
+
+
+.btn.btnM {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-top-width: 1px;
+    color:  #1ca8dd ;
+    border-color:  #1ca8dd ;
+    width: 34px;
+    height: 34px;
+}
+
+.btn.btnS {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-top-width: 1px;
+    color: #d03600;
+    border-color: #d03600;
+    width: 34px;
+    height: 34px;
+}
+
+.modal-content {
+    background-color: #252830;
+    color: #1ca8dd;
+}
+
+.btn.btn-outline-info.modifier, .btn.btn-outline-info.supprimer, .btn.btn-outline-info.ajouter {
+    width: 100%;
+    background: #1ca8dd;
+    color: rgb(255, 255, 255);
+}
+
+.btn.btn-outline-info.modifier:hover, .btn.btn-outline-info.supprimer:hover, .btn.btn-outline-info.ajouter:hover {
+    color: rgb(255, 255, 255);
+}
+
+.btn.btn-outline-info.add {
+    width: 100%;
+    margin-bottom: 4px;
+    color: #1ca8dd;
+    border-color: rgba(32, 168, 221, 0.13);
+    font-size: 14px;
+}
+
+.btn.btn-outline-info.add:hover {
+    color: #1ca8dd;
+    background: #25283000;
+}
+
+.table > tbody > tr > td.Ttitre, .table > tbody > tr > th.Ttitre, .table > tfoot > tr > td.Ttitre, .table > tfoot > tr > th.Ttitre, .table > thead > tr > td.Ttitre, .table > thead > tr > th.Ttitre {
+    border-top: 1px solid rgba(32, 168, 221, 0);
+}
